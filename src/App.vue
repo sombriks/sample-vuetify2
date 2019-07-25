@@ -12,22 +12,21 @@
         target="_blank"
       >
         <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <v-icon>mdi-gnome</v-icon>
       </v-btn>
     </v-app-bar>
 
     <v-content>
-      <router-view/>
+      <router-view />
     </v-content>
   </v-app>
 </template>
 
 <script>
-
 export default {
-  name: 'App',
+  name: "App",
   data: () => ({
     //
-  }),
+  })
 };
 </script>
